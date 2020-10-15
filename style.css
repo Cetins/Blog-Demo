@@ -1,0 +1,59 @@
+/* NAV */ 
+.main-nav {
+
+	list-style: none;
+	margin: 0;
+	font-size: 1.25em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media only screen and (max-width: 400px) {
+	.main-nav {
+		font-size: 0.9em;
+		padding: 5px;
+	}
+	li {
+		padding: 10px;
+	}
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10vw 30vw 10vw;
+    grid-gap: 1em;
+}
+
+
+
+header,
+footer {
+    grid-column: 1 / span 2;
+}
+  
+  /* Demo Specific Styles */
+body {
+    margin: 0 auto;
+    max-width: 56em;
+    padding: 1em 0;
+}
+  
+header,
+main,
+aside,
+footer {
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
